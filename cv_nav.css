@@ -1,0 +1,42 @@
+nav{
+    background-color: rgb(3, 3, 45);
+    padding: 20%;
+
+}
+nav,li{
+    list-style-type: square;
+    flex: auto;
+}
+nav, ul{
+    display: flex;
+    margin: 0;
+    padding: 0px 0px;
+}
+nav, a{
+    color: whitesmoke;
+    display: block;
+    padding: 20px 50px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+.MenuMesInformations:hover{
+    background-color: rgb(143, 199, 227);
+}
+.MenuExpériences:hover{
+    background-color: rgb(122, 190, 232);
+}
+
+
+.MenuTravaux:hover{
+    background-color: rgb(73, 161, 181);
+
+}
+.MenuDistinctions:hover{
+    background-color: rgb(93, 199, 215);
+
+}
+.MenuContact:hover{
+    background-color: cadetblue;
+
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Mon CV/MenuContact</title>
+        <link rel = "stylesheet" type = "text/css" href = "cv_bodyheader.css" />
+        <link rel = "stylesheet" type = "text/css" href = "cv_nav.css" />
+        <link rel = "stylesheet" type = "text/css" href = "cv_footer.css" />
+    </head>
+    <body>
+        <div class="header"> 
+            <div class = "nom policecolorwhite"> Albert Camus </div>
+
+            <div class = "Infoperso policecolorwhite"> Né le 07/11/1913 en Algérie (Dréan),<br>23 rue de la Santé 75014 Paris,<br>0712233445.</div>
+
+            <div class = "poste policecolorwhite"> Auteur,<br> Philosophe,<br>Journaliste engagé  </div>
+            
+            <div><img src = "https://static.wikia.nocookie.net/litarature/images/c/cb/Albert-camus.jpg/revision/latest?cb=20181207070636&path-prefix=fr" class = "portrait"></div>
+        </div>
+    <!---navigation du site--->
+        <nav>
+            <ul>
+                <li class = "MenuMesInformations">
+                    <a href = "html.html"> Mes informations</a>
+                </li>
+                <li class = "MenuExpériences">
+                    <a href = "MenuExpériences.html"> Expériences Professionnelles</a>
+                </li>
+                <li class = "MenuTravaux">
+                    <a href="MenuTravaux.html"> Publications et Oeuvres Majeures</a>
+                </li>
+                <li class= "MenuDistinctions"> 
+                    <a href="MenuDistinctions.html"> Prix et Distinctions</a>
+                </li>
+                <li class = "MenuContact">
+                    <a href = "MenuContact.html">Formulaire de Contact</a> 
+                </li>
+            </ul>
+        </nav>
+        <!---corps du site--->
+
+        <div>
+            <div class = "styleform">
+                <h2 class="titre">Mes coordonnées</h2>
+                <div style="padding-left: 10px;"> Téléphone : 0769255793 <br>
+                Mail : xxxxxx@gmail.com</div>
+                <h2 class="titre">Me contacter</h2>
+        
+
+            <form >
+                <fieldset>
+                    <legend>Renseigner les informations</legend>
+                        <div>
+                        <label for="nom"> Nom</label>
+                            <input type = "text" name ="nom" id="non" placeholder="nom/prénom">
+                        </div>
+                        <div>
+                            <label for="prenom"> Prénom</label>
+                                <input type = "text" name ="Prénom" id="prénom" placeholder="prénom">
+                            </div>
+                        <div>
+                                <label for="mail"> mail</label>
+                                <input type = "email" name ="mail" id="mail" placeholder="nom@exemple.com">
+                        </div>
+                        <div>
+                            <label for="objet"> Object</label>
+                                <select name ="objet" id ="objet">
+                                    <option>Question</option>
+                                    <option>Autre</option>
+                                </select>
+                        </div>
+                        <div>
+                            <label for="message" >Message :</label>
+                                <textarea name="Message" id="message" cols="30" rows="5"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Valider" class="Boutonvalid">
+                        </div>
+                </fieldset> 
+            </form>
+        </div>
+    <!---FOOTER DU SITE-->
+        <div class="footer">
+            Tous droits réservés
+        </div>
+    </body>
+</html>

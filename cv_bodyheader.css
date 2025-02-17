@@ -1,0 +1,125 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+    text-decoration: underline;
+    padding: 4px 5px 1px 5px;
+}
+
+.size20{
+    size: 20%;
+    display: flex;
+}
+
+.poste, .nom { 
+    width: auto;
+    flex: auto;
+}
+.portrait{
+    height: 150px;
+    flex: 25;
+}
+.Infoperso{
+    flex: auto;
+}
+
+.policecolorwhite{
+    color: rgb(6, 4, 4)
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid black;
+}
+
+.corps{
+    padding: 0% 2%;
+}
+
+h2{
+    padding: 0px;
+    margin: 50px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(22, 57, 90);
+}
+
+.styledomaine{
+    font-size: medium;
+    
+}
+
+table{
+    width: 100%;
+}
+
+td,th {
+    border: 1px solid black;
+}
+
+th{
+    color: rgb(24, 26, 154);
+    padding: 10px;
+}
+
+
+.col1{
+    width: 20%;
+    flex: auto;
+    border-right: 1px solid black;
+    color :rgb(22, 57, 90);
+    display: block;
+    padding-top: 1px;
+    
+}
+
+.col2{
+    width: 80%;
+    padding: 28px;
+    border-top: 5px solid black;
+    font-size: 20px;
+    display: block;
+    flex: auto;
+}
+
+.titre{
+    text-decoration-line: underline;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.date{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label{
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+}
+.Boutonvalid{
+    color: black;
+    background-color: cadetblue;
+    margin-left: 23%;
+}
+
+p{
+    padding-left: 20px;
+}
+
+.styleform{
+    border-right: 1px solid black;
+    color :rgb(22, 57, 90);
+    display: block;
+    flex: auto;
+}
